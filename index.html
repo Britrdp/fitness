@@ -102,22 +102,22 @@
         
         case 'testE':
           console.log('testE')
-          document.getElementById('splash-video-testB').style.display="none";
-          document.getElementById('splash-video-testC').style.display="none";
-          document.getElementById('splash-video-testD').style.display="none";
-          document.getElementById('splash-video-testE').style.display="block";
-          document.getElementById('splash-video-control').style.display="none";
+          document.getElementById('splash--testB').style.display="none";
+          document.getElementById('splash--testC').style.display="none";
+          document.getElementById('splash--testD').style.display="none";
+          document.getElementById('splash--testE').style.display="block";
+          document.getElementById('splash--control').style.display="none";
 
           break;
         
 
         default:
           console.log('default')
-          document.getElementById('splash-video-testB').style.display="none";
-          document.getElementById('splash-video-testC').style.display="none";
-          document.getElementById('splash-video-testD').style.display="none";
-          document.getElementById('splash-video-testE').style.display="none";
-          document.getElementById('splash-video-control').style.display="block";
+          document.getElementById('splash--testB').style.display="none";
+          document.getElementById('splash--testC').style.display="none";
+          document.getElementById('splash--testD').style.display="none";
+          document.getElementById('splash--testE').style.display="none";
+          document.getElementById('splash--control').style.display="block";
           break;
        }
 
@@ -137,7 +137,7 @@
 
     function resizeSplash(){
       console.log('resize');
-      var el = document.getElementById('splash-video-' + (flag ? flag : 'control'));
+      var el = document.getElementById('splash--' + (flag ? flag : 'control'));
       
       if(!el) return;
 
@@ -168,7 +168,7 @@
   .shorthero{
     overflow: hidden;
   }
-  #hero-splash-container video{
+  #hero-splash-container {
     display:none;
   }
   .background-embed{
@@ -193,18 +193,18 @@
 </style>
 <script src="js/nav-menu.js"></script>
 <div class="section shorthero vid full wf-section">
-<div id="hero-splash-container" class="background-video w-background-video w-background-video-atom">
+<div id="hero-splash-container" class="background- w-background- w-background--atom">
 
-<div class="background-embed" id="splash-video-testB">
+<div class="background-embed" id="">
 <iframe src="https://customer-29d3r31yjz332bf4.cloudflarestream.com/08cfe7162cd68f70f704f9918416ff4e/iframe?muted=true&amp;preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-29d3r31yjz332bf4.cloudflarestream.com%2F08cfe7162cd68f70f704f9918416ff4e%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&amp;controls=false" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 </div>
-<div class="background-embed" id="splash-video-testC">
+<div class="background-embed" id="">
 <iframe src="https://customer-29d3r31yjz332bf4.cloudflarestream.com/5116c9e96ad835b82799d95246e9bf32/iframe?muted=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-29d3r31yjz332bf4.cloudflarestream.com%2F5116c9e96ad835b82799d95246e9bf32%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&amp;controls=false" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 </div>
-<div class="background-embed" id="splash-video-testD">
+<div class="background-embed" id="">
 <iframe src="https://customer-29d3r31yjz332bf4.cloudflarestream.com/3dbe5223d046f94a37099bf536f9c3fb/iframe?muted=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-29d3r31yjz332bf4.cloudflarestream.com%2F3dbe5223d046f94a37099bf536f9c3fb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&amp;controls=false" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 </div>
-<div class="background-embed" id="splash-video-testE">
+<div class="background-embed" id="">
 <iframe src="https://customer-29d3r31yjz332bf4.cloudflarestream.com/06ab27ce17c2996913d1ad48a4f181c5/iframe?muted=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-29d3r31yjz332bf4.cloudflarestream.com%2F06ab27ce17c2996913d1ad48a4f181c5%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&amp;controls=false" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 </div>
 <div class="w-embed">
