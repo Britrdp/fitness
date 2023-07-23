@@ -15,7 +15,7 @@ div.innerHTML = `<div class="menu-container">
       <li class='right-btn shop-btn'><a href="merch.topg.com/topg-shop/index.html">EXCLUSIVE</a></li>
     </ul>
 </div>
-</div>`;
+</div>
 
 document.currentScript.parentNode.insertBefore(
   div.firstElementChild,
@@ -23,7 +23,7 @@ document.currentScript.parentNode.insertBefore(
 );
 
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () = {
 
   $('head').append('<link rel="stylesheet" href="css/menu-style.css" type="text/css"/>');
   $('head').append('  <link rel="stylesheet" href="css/ionicons.min.css" type="text/css">');
