@@ -12,7 +12,7 @@ div.innerHTML = `<div class="menu-container">
       
       <li><a href=""></a></li>
       <li class='right-btn shop-btn'><a href="shop.html">SHOP</a></li>
-      <li class='right-btn shop-btn'><a href="fitness/merch.topg.com/topg-shop/index.html">EXCLUSIVE</a></li>
+      <li class='right-btn shop-btn'><a href="merch.topg.com/topg-shop/index.html">EXCLUSIVE</a></li>
     </ul>
 </div>
 </div>`;
