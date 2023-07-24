@@ -1,1 +1,0 @@
-!function(e){"use strict";const t=function(){const t=e(".wp-block-topg-nft-product-featured-image-video");t.length&&(t.get(0).pause(),window.innerWidth<=600?t.get(0).play():(t.on("mouseenter",(function(){e(this).get(0).play()})),t.on("mouseleave",(function(){e(this).get(0).pause()}))))};e(window).on("resize",t),t()}(jQuery);
