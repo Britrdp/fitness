@@ -7,7 +7,7 @@ div.innerHTML = `<div class="menu-container">
       <li class='mobile'><a href="index.html">HOME</a></li>
       <li><a href="index.html" target='_blank'>HOME</a></li>
       <li><a href="official.html" target="_blank">SOCIAL MEDIA</a></li>
-      <li><a href='newsletter.html'>CONTACTE ME</a>
+      <li><a href=''> </a>
       
       
       <li><a href=""></a></li>
