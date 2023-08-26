@@ -9,7 +9,7 @@ Screen style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-  color: #fff;
+  color: #ffffff;
 }
 
 a:active{
@@ -106,7 +106,7 @@ a:active{
 .menu >ul > li:not(.menu-logo):hover a,
 .menu >ul > li:not(.menu-logo):hover div,
 .menu >ul > li:not(.menu-logo):hover:before {
-  color: #333;
+  color: #fff7f7;
 }
 
 .menu > ul > li > ul {
@@ -146,7 +146,7 @@ a:active{
 }
 
 .menu > ul > li > ul > li a, .menu > ul > li > ul > li div {
-  color: #777;
+  color: #635d0b;
   padding: .2em 0;
   width: 95%;
   display: block;
@@ -203,7 +203,7 @@ a:active{
 }
 
 .menu > ul > li.shop-btn a{
-  border: 3px solid #cc334f;
+  border: 3px solid #fbff00;
   text-decoration: none;
   margin: 0.7em 1em 0.7em 0em;
   padding: 0.7em 1.4em;
@@ -215,7 +215,7 @@ a:active{
 
 @media screen and (max-width: 1230px){
   .menu > ul > li.shop-btn a{
-    border: 3px solid #cc334f;
+    border: 3px solid #e8f161;
     text-decoration: none;
     margin: 0.7em 1em;
     padding: 0.7em 1.4em;
@@ -347,7 +347,7 @@ Mobile style's
   }
   .menu > ul > li.top-g-btn:hover > a,
   .menu > ul > li.top-g-btn:hover:before{
-    color: #fff;
+    color: #000000;
   }
   .shop-btn{
     max-width: 147px;
